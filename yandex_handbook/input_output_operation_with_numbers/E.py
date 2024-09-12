@@ -1,0 +1,6 @@
+price = int(input())
+weight = int(input())
+count = int(input())
+total = int(price * weight)
+result = int(count - total)
+print(result)

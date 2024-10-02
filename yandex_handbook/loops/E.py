@@ -1,10 +1,8 @@
+res = 0
 
-a = float(input())
-
-while a != 0:
-    if a >= 500:
-        a = a - (a / 100 * 10)
+while (b := float(input())) != 0:
+    if b >= 500:
+        res += b - (b / 100 * 10)
     else:
-        a = a + a
-
-print(a)
+        res += b
+print(res)

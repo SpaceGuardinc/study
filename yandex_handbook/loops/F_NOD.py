@@ -8,3 +8,11 @@ while a != 0 and b != 0:
         a = a % b
 
 print(a + b)
+
+while a != b:
+    if b > a:
+        b = b - a
+    elif a > b:
+        a = a - b
+
+print(a)
